@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portugal Textile Hub | We build supply chains</title>
+  <meta name="description" content="Portugal Textile Hub builds textile supply chains for ambitious brands through capability development, production supervision and strategic sourcing in Portugal, with Morocco supply chains for larger volumes." />
+  <style>
+    :root{
+      --bg:#f6f1e8;
+      --surface:#fffaf2;
+      --surface2:#ffffff;
+      --text:#172033;
+      --muted:#667085;
+      --line:rgba(23,32,51,.12);
+      --accent:#1c6b5a;
+      --accent2:#d9903d;
+      --green:#21a66b;
+      --amber:#e6a23c;
+      --red:#d94b45;
+      --shadow:0 18px 45px rgba(23,32,51,.08);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;min-height:100%;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:var(--bg);}
+    body{background:radial-gradient(850px 430px at 8% 5%, rgba(28,107,90,.13), transparent 58%),radial-gradient(760px 390px at 92% 10%, rgba(217,144,61,.15), transparent 60%),linear-gradient(180deg,#fbf6ee 0%,#f5efe5 100%);}
+    a{color:inherit}.wrap{max-width:1160px;margin:0 auto;padding:18px 22px}.app{min-height:100svh;display:flex;flex-direction:column}.nav{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:10px 0}.brand{display:flex;align-items:center;gap:11px;text-decoration:none;white-space:nowrap}.logo{width:34px;height:34px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#79b8a5 55%,var(--accent2));box-shadow:0 10px 26px rgba(28,107,90,.18)}.brand span{font-weight:800;letter-spacing:-.2px}.navlinks{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:center}.tabbtn{border:1px solid transparent;background:transparent;color:var(--muted);font:inherit;font-size:13px;font-weight:700;padding:9px 10px;border-radius:999px;cursor:pointer}.tabbtn:hover,.tabbtn.active{background:rgba(28,107,90,.08);border-color:rgba(28,107,90,.12);color:var(--accent)}.navActions{display:flex;align-items:center;gap:10px;justify-content:flex-end}.capacity{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(33,166,107,.26);background:rgba(33,166,107,.08);color:#11613e;border-radius:999px;padding:8px 10px;font-size:12px;font-weight:800;white-space:nowrap}.signal{display:flex;gap:4px}.light{width:8px;height:8px;border-radius:999px;background:rgba(23,32,51,.16)}.light.green{background:var(--green);box-shadow:0 0 0 4px rgba(33,166,107,.10)}.light.amber{background:rgba(230,162,60,.30)}.light.red{background:rgba(217,75,69,.30)}.cta,.secondary{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;border-radius:999px;font-size:14px;font-weight:800;padding:10px 15px;transition:.18s ease}.cta{background:var(--text);color:#fff;border:1px solid var(--text)}.cta:hover{transform:translateY(-1px);box-shadow:0 12px 24px rgba(23,32,51,.16)}.secondary{background:rgba(255,255,255,.58);border:1px solid var(--line);color:var(--text)}.secondary:hover{border-color:rgba(28,107,90,.28);transform:translateY(-1px)}
+    main{flex:1;display:flex}.page{display:none;width:100%}.page.active{display:block}.home{min-height:calc(100svh - 72px);display:grid;grid-template-columns:1.05fr .95fr;gap:28px;align-items:center;padding:12px 0 22px}.kicker{display:inline-flex;gap:9px;align-items:center;padding:8px 12px;border:1px solid var(--line);background:rgba(255,255,255,.62);border-radius:999px;color:var(--muted);font-size:12px;font-weight:800}.dot{width:8px;height:8px;border-radius:99px;background:var(--accent)}h1{font-size:clamp(46px,7vw,82px);line-height:.91;letter-spacing:-3.2px;margin:16px 0 16px;max-width:10ch}.supply-highlight{display:block;color:var(--accent);font-weight:950;letter-spacing:-3.6px;font-size:1.12em}.lead{font-size:clamp(17px,2vw,22px);line-height:1.35;color:#475467;margin:0 0 24px;max-width:46ch}.heroActions{display:flex;gap:12px;flex-wrap:wrap}.heroCard{background:rgba(255,255,255,.66);border:1px solid rgba(23,32,51,.10);border-radius:30px;padding:24px;box-shadow:var(--shadow)}.heroCard h2{font-size:18px;margin:0 0 12px}.miniGrid{display:grid;grid-template-columns:1fr;gap:10px}.mini{padding:14px;border-radius:18px;background:rgba(246,241,232,.72);border:1px solid rgba(23,32,51,.08)}.mini b{display:block;margin-bottom:4px}.mini span{color:var(--muted);font-size:14px;line-height:1.4}.morocco{margin-top:14px;padding:15px;border-radius:20px;background:linear-gradient(135deg,rgba(28,107,90,.10),rgba(217,144,61,.12));border:1px solid rgba(28,107,90,.13);color:#344054;font-size:14px;line-height:1.45}.manifesto{margin-top:18px;font-size:20px;font-weight:850;letter-spacing:-.4px}.content{padding:28px 0 56px}.sectionHead{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:16px}.sectionHead h2{font-size:38px;letter-spacing:-1.4px;margin:0}.sectionHead p{max-width:58ch;color:var(--muted);margin:0;line-height:1.55}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:stretch}.content .grid{grid-template-columns:repeat(3,1fr);gap:18px;margin:0 auto}.card{background:rgba(255,255,255,.72);border:1px solid rgba(23,32,51,.10);border-radius:30px;padding:38px 34px;box-shadow:var(--shadow)}.content .card{min-height:238px;display:flex;flex-direction:column;justify-content:flex-start}.card h3{margin:0 0 14px;font-size:25px;letter-spacing:-.5px}.card p,.card li{color:var(--muted);line-height:1.62;font-size:18px}.card p{margin:0}.list{margin:0;padding:0;list-style:none}.list li{padding:12px 0;border-bottom:1px solid var(--line)}.list li:last-child{border-bottom:0}.values{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.values .card{min-height:250px}.valueWord{font-size:34px;font-weight:950;letter-spacing:-1px;color:var(--accent)}.form{display:grid;gap:10px}.form input,.form textarea{width:100%;border:1px solid var(--line);border-radius:15px;background:#fff;padding:13px 14px;font:inherit;color:var(--text)}.form textarea{min-height:120px;resize:vertical}.form button{cursor:pointer}.footer{padding:12px 0 20px;color:var(--muted);font-size:12px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+    @media(max-width:900px){.nav{align-items:flex-start;flex-wrap:wrap}.navlinks{order:3;width:100%;justify-content:flex-start}.home{grid-template-columns:1fr;min-height:auto;padding:22px 0 36px}h1{font-size:52px}.grid,.content .grid,.values{grid-template-columns:1fr}.sectionHead{display:block}.sectionHead p{margin-top:8px}.capacity{display:none}}
+    @media(max-height:760px) and (min-width:901px){.wrap{padding-top:12px;padding-bottom:10px}.home{min-height:calc(100svh - 64px);gap:22px}.heroCard{padding:18px;border-radius:24px}h1{font-size:62px;margin:12px 0}.lead{font-size:18px;margin-bottom:16px}.mini{padding:11px}.manifesto{margin-top:12px;font-size:18px}.morocco{margin-top:10px;padding:12px}.nav{padding:8px 0}}
+  </style>
+</head>
+<body>
+  <div class="app wrap">
+    <header class="nav">
+      <a class="brand" href="#home" data-tab="home"><span class="logo" aria-hidden="true"></span><span>Portugal Textile Hub</span></a>
+      <nav class="navlinks" aria-label="Main navigation">
+        <button class="tabbtn active" data-tab="home">Home</button>
+        <button class="tabbtn" data-tab="capability">Capability</button>
+        <button class="tabbtn" data-tab="model">Operating model</button>
+        <button class="tabbtn" data-tab="intelligence">Commercial intelligence</button>
+        <button class="tabbtn" data-tab="values">Values</button>
+      </nav>
+      <div class="navActions">
+        <div class="capacity" title="Current capacity status"><span class="signal"><span class="light green"></span><span class="light amber"></span><span class="light red"></span></span>Open for new projects</div>
+        <a class="cta" href="#contact" data-tab="contact">Contact us</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="page active">
+        <div class="home">
+          <div>
+            <div class="kicker"><span class="dot"></span> Textile supply chains • Portugal-first capability</div>
+            <h1>We build <span class="supply-highlight">SUPPLY CHAINS.</span></h1>
+            <p class="lead">For brands entering the industry, scaling production, or creating strategic capability in Portugal before urgency appears.</p>
+            <div class="heroActions">
+              <a class="cta" href="#contact" data-tab="contact">Contact us</a>
+            </div>
+            <div class="manifesto">We don’t chase production. We build manufacturing structure.</div>
+          </div>
+
+          <aside class="heroCard" aria-label="Homepage summary">
+            <h2>Build before you need it.</h2>
+            <div class="miniGrid">
+              <div class="mini"><b>Enter</b><span>A reliable first route into textile manufacturing.</span></div>
+              <div class="mini"><b>Build capability</b><span>Materials, capsules and small volumes tested before urgent needs appear.</span></div>
+              <div class="mini"><b>Scale</b><span>Prepared capacity, production visibility and execution control.</span></div>
+            </div>
+            <div class="morocco"><b>Large-volume route:</b> for selected programs, we can structure supply chains in Morocco to complement Portugal with scalable and competitive capacity.</div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="capability" class="page content">
+        <div class="sectionHead"><h2>Capability</h2><p>Portugal Textile Hub helps brands create strategic production readiness in Portugal — not only when there is an order, but before there is pressure.</p></div>
+        <div class="grid">
+          <div class="card"><h3>Strategic entry</h3><p>Select or develop materials, test suppliers and validate the right production route for your product.</p></div>
+          <div class="card"><h3>Capsules & small volumes</h3><p>Build knowledge through controlled production runs, capsules and pilot orders before scaling.</p></div>
+          <div class="card"><h3>Relocation readiness</h3><p>If a brand needs to reallocate production, the product knowledge, supplier alignment and operational capability already exist.</p></div>
+        </div>
+      </section>
+
+      <section id="model" class="page content">
+        <div class="sectionHead"><h2>Operating model</h2><p>Lean, clear and commercially disciplined. We adapt our role to the needs and risk profile of each project.</p></div>
+        <div class="grid">
+          <div class="card"><h3>Strategic sourcing</h3><p>Factory matching, capability analysis, supplier alignment and fair project-based negotiation.</p></div>
+          <div class="card"><h3>Production supervision</h3><p>Development follow-up, quality control, timeline tracking and execution oversight.</p></div>
+          <div class="card"><h3>Supply chain structuring</h3><p>Portugal-first manufacturing ecosystems, with Morocco routes available for larger-volume programs.</p></div>
+        </div>
+      </section>
+
+      <section id="intelligence" class="page content">
+        <div class="sectionHead"><h2>Commercial intelligence</h2><p>We support decisions on where to produce, how to scale and which capabilities create long-term advantage.</p></div>
+        <div class="grid">
+          <div class="card"><h3>Market route</h3><p>Understand the best industrial route for category, price, quantity, timing and strategic value.</p></div>
+          <div class="card"><h3>Capability map</h3><p>Identify what should be developed in Portugal and what can be scaled through complementary supply chains.</p></div>
+          <div class="card"><h3>Decision support</h3><p>Turn production knowledge into a strategic option before the market forces a decision.</p></div>
+        </div>
+      </section>
+
+      <section id="values" class="page content">
+        <div class="sectionHead"><h2>Values</h2><p>Our work depends on trust, discretion and disciplined execution.</p></div>
+        <div class="values">
+          <div class="card"><div class="valueWord">Transparency</div><p>Clear scope, realistic feasibility, visible milestones and direct communication.</p></div>
+          <div class="card"><div class="valueWord">Confidentiality</div><p>Projects, suppliers, product information and commercial strategy are handled with discretion.</p></div>
+          <div class="card"><div class="valueWord">Integrity</div><p>Fair negotiation, serious execution and long-term alignment with brands and industrial partners.</p></div>
+        </div>
+      </section>
+
+      <section id="contact" class="page content">
+        <div class="sectionHead"><h2>Contact us</h2><p>Share your project, category, quantities, timeline and strategic objective. We will review feasibility and propose the right route.</p></div>
+        <div class="grid" style="grid-template-columns:1.2fr .8fr">
+          <div class="card"><h3>Email</h3><p style="margin:0 0 18px"><a href="mailto:info@portugaltextilehub.com"><b>info@portugaltextilehub.com</b></a></p>
+            <form class="form" action="#" method="post">
+              <input type="text" name="name" placeholder="Name" required>
+              <input type="email" name="email" placeholder="Email" required>
+              <input type="text" name="company" placeholder="Brand / Company">
+              <input type="text" name="category" placeholder="Category">
+              <input type="text" name="quantity" placeholder="Estimated quantity / volume">
+              <textarea name="message" placeholder="Tell us what you want to build, test, relocate or scale..."></textarea>
+              <button class="cta" type="submit">Send message</button>
+            </form>
+          </div>
+          <div class="card"><h3>Capacity status</h3><ul class="list"><li><b>Green:</b> open for new projects.</li><li><b>Amber:</b> selective onboarding for strategic projects.</li><li><b>Red:</b> capacity fully allocated; new projects enter review queue.</li></ul></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><span>© <span id="year"></span> Portugal Textile Hub. All rights reserved.</span><span>Built on transparency. Protected by confidentiality. Driven by integrity.</span></footer>
+  </div>
+
+  <script>
+    const pages = document.querySelectorAll('.page');
+    const buttons = document.querySelectorAll('[data-tab]');
+    function show(tab){
+      const target = document.getElementById(tab) ? tab : 'home';
+      pages.forEach(p => p.classList.toggle('active', p.id === target));
+      document.querySelectorAll('.tabbtn').forEach(b => b.classList.toggle('active', b.dataset.tab === target));
+      history.replaceState(null, '', '#' + target);
+      window.scrollTo({top:0, behavior:'instant'});
+    }
+    buttons.forEach(b => b.addEventListener('click', e => { e.preventDefault(); show(b.dataset.tab); }));
+    window.addEventListener('hashchange', () => show(location.hash.replace('#','') || 'home'));
+    if(location.hash) show(location.hash.replace('#',''));
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
