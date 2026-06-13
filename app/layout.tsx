@@ -16,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Portugal Textile Hub",
   description: "Outsource by Design",
+  verification: {
+  google: "1an4Bbg4WISoT6Pj9g08kocLwBvKZo6ojAiWyfSFaqM",
+  },
 };
 
 export default function RootLayout({
