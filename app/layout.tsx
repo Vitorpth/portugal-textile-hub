@@ -13,11 +13,20 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Portugal Textile Hub",
-  description: "Outsource by Design",
+export const metadata = {
+  title: "Portugal Textile Hub | Apparel Sourcing & Supply Chain Partner",
+  description:
+    "Strategic apparel sourcing and supply chain management in Portugal and Morocco. Connecting brands with trusted manufacturing partners through transparency, expertise and execution.",
+  openGraph: {
+    title: "Portugal Textile Hub | Apparel Sourcing & Supply Chain Partner",
+    description:
+      "Strategic apparel sourcing and supply chain management in Portugal and Morocco.",
+    url: "https://www.portugaltextilehub.com",
+    siteName: "Portugal Textile Hub",
+    type: "website",
+  },
   verification: {
-  google: "1an4Bbg4WISoT6Pj9g08kocLwBvKZo6ojAiWyfSFaqM",
+    google: "1an4Bbg4WISoT6Pj9g08kocLwBvKZo6ojAiWyfsFaqM",
   },
 };
 
